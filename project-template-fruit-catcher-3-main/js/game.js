@@ -134,7 +134,7 @@ class Game{
 
                       if(obstacleGroup.isTouching(players)){
                        //write a code to assign the value of gameState to End
-                       gameState === 2;
+                       gameState = 2;
                       }
                   }
                 }
@@ -171,8 +171,8 @@ class Game{
             x = 0
             var obstacle = createSprite(x, y);
             obstacle.addImage("obstacle", obstacleImage);
-            obstacle.velocityX = 4;
-            obstacle.scale = 0.15;
+            obstacle.velocityX = 6;
+            obstacle.scale = 0.1;
             obstacleGroup.add(obstacle);
             
             y = 0
