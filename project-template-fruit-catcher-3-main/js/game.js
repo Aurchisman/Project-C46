@@ -168,18 +168,13 @@ class Game{
     {       
             var x, y;
             //write a code to create an obstacle at random x position.
-            x = 0
+            x = random(0,width-100);
             var obstacle = createSprite(x, y);
             obstacle.addImage("obstacle", obstacleImage);
             obstacle.velocityX = 6;
             obstacle.scale = 0.1;
             obstacleGroup.add(obstacle);
             
-            y = 0
-            var obstacle = createSprite(x, y);
-            obstacle.addImage("obstacle", obstacleImage);
-            obstacle.velocityY = 4;
-            obstacle.scale = 0.15;
-            obstacleGroup.add(obstacle);
+            
     }
 }
